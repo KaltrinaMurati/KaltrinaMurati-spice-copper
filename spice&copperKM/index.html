@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div id="kryesori">
+        <div id="first">
+<div id="Nav">
+    <div id="logo">
+     <a href="index.html"><img src="R__1_-removebg-preview.png" alt="" id="logo1"></a>  
+    </div>        <div id="hamburger" onclick="toggleMenu()">&#9776;</div>
+  
+
+    <div id="navi">
+        <ul type="none">
+            <li><a href="index.html" class="menu">Home</a></li>
+            <li><a href="menu.html"  class="menu">Menu</a></li>
+            <li><a href="reservation.html"  class="menu">Reservation</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="buton" onclick="kontakti()">Contact us</a>
+    </div>
+   
+</div>
+<div id="text">
+    <h1 id="e1">Experience the art of flavor at Copper&Spice.</h1>
+    
+<p id="fr"> From fresh, seasonal ingredients to inspired culinary creations, every dish tells a story. Join us for a dining experience where taste meets tradition and every meal is unforgettable."</p>
+<a href="reservation.html" class="buton" >Reserve a table</a>
+</div>
+</div>
+<div id="sign">
+    <div id="pers"><h1 id="header">Our Signature Dishes</h1>
+    <p id="pers1">Discover the dishes our guests keep coming back for, each crafted with fresh ingredients and authentic flavors that make every bite unforgettable</p></div>
+    <div id="cards">
+        <div class="d1"><img src="PIZZA-removebg-preview.png" alt="" class="photo1"> 
+            <h1 class="teksti">Fiorella Pizza</h1>
+            <p class="teksti1">Crisp, golden crust topped with the finest ingredients, bringing a perfect blend of flavors in every bite.</p>
+            <p class="cmimi">$19</p>
+        </div>
+        <div class="d1">
+            <img src="image-removebg-preview (10).png" alt="" id="photo2"> 
+            <h1 class="teksti">Pasta Eleganza</h1>
+            <p class="teksti1">Delicate pasta enveloped in a luxurious creamy sauce crafted to deliver an unforgettable taste of indulgence.</p>
+            <p class="cmimi">$22</p>
+        </div>
+        <div class="d1">
+            <img src="image-removebg-preview (11).png" alt="" id="photo3"> 
+            <h1  id="ko">Poule Alfredo</h1>
+            <p id="teksti3">Tender chicken meets a rich,velvety Alfredo sauce, served over delicate fettuccine for a dining experience.</p>
+            <p class="cmimi">$25</p>
+        </div>
+
+    </div>
+</div>
+
+<div id="history">
+    <div class="div1"><h1 id="about">About us</h1>
+    <p id="p1">Cooper&Spice brings a blend of rich history and modern elegance to every dining experience. Originally founded in 1986 as a cozy gathering spot for locals, it has grown into a beloved destination known for its warm ambiance and timeless charm. Our interiors feature soft lighting,  carefully curated decor that reflect our roots and celebrate the beauty of simplicity.</p></div>
+    <div class="div1">
+        <img src="original_beauty-essex-vlv_734D94B5-F4FD-394E-A8661F6C11ECF467-734d934694954d4.jpg" alt="" id="side">
+    </div>
+</div>
+
+<div id="history1">
+    <div class="div2"><h1 id="about1">Experience Culinary Elegance at Our Location</h1>
+    <p id="p2">Join us at Copper&Spice conveniently located in the heart of the charming Verano District, where exquisite flavors await you. </p>  <p class="day">Monday-Friday<span class="time">10:00-21:00</span></p>
+  <p class="day">Saturday-Sunday<span class="time">9:00-23:00</span></p>
+  <p id="numbers">(555) 123-4567 <span id="nr1"> (555) 987-6543</span></p>
+
+
+</div>
+    <div class="div2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47055.70243873936!2d21.1288064!3d42.51320319999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1730839791783!5m2!1sen!2s" width="700" height="700" style="border:0;margin-top: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+</div>
+
+
+
+
+    </div>
+
+
+<script>
+function kontakti(){
+  const contact= document.getElementById('history1')
+  contact.scrollIntoView({behavior: 'smooth'});
+}
+function toggleMenu() {
+    const navMenu = document.getElementById('navi');
+    navMenu.style.display = navMenu.style.display==='block'?'none':'block';
+}
+
+</script>
+
+</body>
+</html>

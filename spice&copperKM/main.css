@@ -1,0 +1,786 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+#kryesori{
+    width: 100%;
+    height: 3900px;
+  background-color: #20030A ;
+}
+#first{
+    width: 100%;
+    height: 750px;
+    background-image: url(best-restaurants-beauty-essex.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+#img{
+    width: 100%;
+    height: 600px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+ 
+}
+#Nav{
+    width: 100%;
+    height: 150px;
+
+
+}
+#logo{
+    width: 35%;
+    height: 150px;
+
+    float: left;
+}
+#logo1{
+    width: 200px;
+    height: 220px;
+    margin-top: -30px;
+}
+#navi{
+    width: 50%;
+
+    float: left;
+  
+}
+.menu{
+    text-decoration-line: none;
+    color: #CC5500;
+    font-weight: 600;
+    font-family: Inter;
+float: left;
+margin-left: 100px;
+font-size: 18px;
+transition: all 0.3s ease;
+}
+:hover.menu{
+color: white;
+}
+
+ul{
+    margin-left: -100px;
+  position: relative;
+  top: 67px;
+}
+.buton{
+    border: 2px solid #800020;
+    padding:   7px 27px;
+  width: 500px;
+    background-color: #800020;
+color: white;
+font-weight: 400;
+text-decoration-line: none;
+border-radius: 10px;
+font-family: Inter;
+position: relative;
+left: 350px;
+top: 50px;
+transition: all 0.3s ease;
+font-size: 18px;
+}
+:hover.buton{
+    background-color: #20030A;
+    border-color:#20030A ;
+    color: aliceblue;
+ 
+}
+:nth-child(3).buton{
+    margin-left: 300px;
+    position: relative;
+top: 65px;
+}
+
+#text{
+    width: 100%;
+    height: 600px;
+padding-top: 50px;
+}
+#e1{
+    width: 900px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin: auto;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+#fr{
+    font-size: 20px;
+    color: #F5F5F5;
+    text-align: center;
+    margin: auto;
+width: 700px;
+position: relative;
+top: 30px;
+font-weight: 500;
+font-family: Montserrat;
+}
+#sign{
+    width: 100%;
+    height: 900px;
+   margin-top: 200px;
+}
+#pers{
+    width: 100%;
+    height: 200px;
+
+}
+#cards{
+    width: 100%;
+    height: 700px;
+ 
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.d1{
+    width: 450px;
+    height: 650px;
+background-color: rgba(211, 211, 211, 0.7);
+border-radius: 10px;
+padding: 30px;
+transition: all 0.3s ease;
+}
+
+#header{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Montserrat;
+margin-top: 60px;
+position: relative;
+top: 30px;
+}
+#pers1{
+    color: #A79A9E;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    font-size: 20px;
+    font-family: Montserrat;
+    position: relative;
+    top: 40px;
+    font-weight: 400;
+}
+.photo1{
+    width: 350px;
+    height: 400px;
+  margin-left: 10px;
+
+}
+#photo2{
+    width: 450px;
+    height: 450px;
+    margin-top: -50px;
+    position: relative;
+    left: -10px;
+}
+#photo3{
+    width: 350px;
+    height: 350px;
+
+    position: relative;
+ left: 30px;
+ top: 15px;
+  
+}
+.teksti{
+    text-align: center;
+    color: #20030A;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+#teksti3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    width: 380px;
+    font-family: Montserrat;
+    color: grey;
+    margin-top: 60px;}
+#ko{
+    text-align: center;
+    color: #20030A;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.teksti1{
+    text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  width: 380px;
+  font-family: Montserrat;
+  color: gray;
+}
+.cmimi{
+    font-size: 30px;
+    font-weight: 700;
+    color: #20030A;
+    text-align: end;
+}
+#history{
+    width: 100%;
+    height: 800px;
+    background-color: #A79A9E;
+    margin-top: 200px;
+    background-size: cover; 
+    background-position: center;
+    background-image: url(Beauty-and-Essex-NYC-9.jpg);
+}
+.div1{
+    width: 50%;
+    height: 800px;
+  float: left;
+}
+:nth-child(2).div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:nth-child(1).div1{
+    padding-left: 70px;
+}
+#side{
+    width: 650px;
+    height: 500px;
+  
+}
+#about{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: Montserrat;
+margin-top: 250px;
+position: relative;
+top: -70px;
+font-weight: 700;
+}
+#about1{
+    margin-top: 80px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+#p1{
+    color: #F5F5F5;
+    font-size: 25px;
+    font-family: Montserrat;
+    width: 700px;
+    font-weight: 500;
+}
+#p2{
+    color: #F5F5F5;
+    font-size: 23px;
+    font-family: Montserrat;
+    width: 620px;
+   
+}
+#history1{
+    width: 100%;
+    height: 800px;
+   margin-top: 150px;
+ 
+    display: flex;
+    background-size: cover; 
+    background-position: center;
+}
+.div2{
+    width: 50%;
+    height: 800px;
+  
+}
+:nth-child(2).div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:nth-child(1).div2{
+   padding-left: 30px;
+}
+.day{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 45px;
+font-weight: 600;
+font-family: Montserrat;
+}
+.time{
+    color: #CC5500;
+    position: relative;
+    left: 30px;
+    font-family: Montserrat;
+
+}
+#numbers{
+    color: #CC5500;
+margin-top: 280px;
+font-weight: 500;
+font-size: 25px;
+}
+#nr1{
+    color: #CC5500;
+    position: relative;
+    left: 100px;
+}
+#hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+@media (max-width:430px) {
+
+    #hamburger {
+        display: block;
+        text-align: end;
+        position: relative;
+        left: -30px;
+        top: 20px;
+    }
+    #navi {
+        display: none;
+        flex-direction: column;
+        background-color: #20030A;
+        padding: 10px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        height: 350px;
+  z-index: 2;
+    }
+    #navi ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #navi ul li {
+        margin: 10px 0;
+    }
+    #navi ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    #navi .buton {
+     
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        position: relative;
+        left: -10px;
+        margin-left: 40px;
+        top: 70px;
+    }
+    #hamburger.hidden {
+        display: none;
+    }
+   
+#kryesori{
+    width: 100%;
+    height: 4000px;
+
+}
+
+
+#first{
+    height: 500px;
+}
+#logo1{
+    width: 150px;
+    height: 150px;
+}
+#navi{
+    display: none;
+}
+#Nav{
+    height: 100px;
+}
+#text{
+    height: 400px;
+position: relative;
+top: -30px;
+}
+#e1{
+    font-size: 30px;
+    width: 370px;
+
+}
+#fr{
+    width: 350px;
+    font-size: 15px;
+
+}
+:nth-child(3).buton{
+margin-left: -220px;
+}
+#sign{
+    position: relative;
+    top: -160px;
+    height: 1500px;
+}
+#pers{
+    height: 200px;
+}
+#header{
+    font-size: 30px;
+}
+#pers1{
+    width: 400px;
+    font-size: 17px;
+}
+#cards{
+   height: 1500px;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.d1{
+    width: 350px;
+    height: 450px;
+ 
+}
+.photo1{
+    width: 250px;
+    height: 300px;
+position: relative;
+left: 10px;
+
+}
+#photo2{
+   width: 350px;
+   height: 350px;
+   position: relative;
+   left: -20px;
+}
+#photo3{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 20px;
+}
+#teksti3{
+    width: 330px;
+    font-size: 15px;
+    height: 35px;
+    position: relative;
+    top: -15px;
+    left: -18px;
+
+}
+#ko{
+    font-size: 20px;
+    position: relative;
+    top: 35px;
+    padding-bottom: 5px;
+}
+.teksti{
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    padding-bottom: 5px;
+}
+
+
+.teksti1{
+    width: 330px;
+    font-size: 15px;
+    height: 35px;
+    position: relative;
+    top: -10px;
+    left: -18px;
+}
+.cmimi{
+    font-size:20px ;
+    position: relative;
+    left: 20px;
+    padding-bottom: 8px;
+}
+
+#history{
+ height: 600px;
+ 
+}
+.div1{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+:nth-child(2).div1{
+    display: none;
+}
+#about{
+font-size: 40px;
+text-align: center;
+position: relative;
+top: -180px;
+left: -30px;
+}
+#p1{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: -30px;
+    top: -140px;
+}
+#history1{
+   height: 500px;
+flex-direction: column;
+}
+.div2{
+   width: 100%;
+height: 600px;
+}
+#about1{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    left: 15px;
+    width: 350px;
+}
+#p2{
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+position: relative;
+left: 40px;
+}
+
+.day{
+ text-align: center;
+ position: relative;
+ left: -25px;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+   
+}
+#numbers{
+    display: block;
+    position: relative;
+    text-align: center;
+    top: -200px;
+    left: -10px;
+}
+#nr1{
+    position: relative;
+ margin-left: -200px;
+    display: block;
+}
+
+
+}
+
+@media (min-width: 430px) and (max-width:768px){
+    #kryesori{
+        width: 768px;
+        height: 4400px;
+    }
+#first{
+    width: 100%;
+    height: 550px;
+
+}
+#Nav{
+    width: 100%;
+    height: 200px;
+}
+#logo1{
+    width: 200px;
+    height: 200px;
+}
+.menu{
+    font-size: 15px;
+    margin-left: -0px;
+    margin-left:35px ;
+    margin-top: -10px;
+}
+.buton{
+    position: relative;
+    left: -0px;
+    left: 300px;
+    top: -0px;
+top: 40px;
+}
+#text{
+    height: 400px;
+  
+}
+#e1{
+    font-size: 30px;
+  width: 500px;
+  position: relative;
+  top: -100px;
+}
+#fr{
+    font-size: 15px;
+    width: 500px;
+    position: relative;
+    top: -70px;
+}
+:nth-child(3).buton{
+    position: relative;
+    left: -5px;
+    top: -10px;
+}
+
+#sign{
+    height: 1400px;
+  
+    position: relative;
+    top: -120px;
+}
+#pers{
+    height: 200px;
+
+}
+#header{
+font-size: 30px;
+}
+#pers1{
+    width: 500px;
+    font-size: 15px;
+}
+#cards{
+    height: 1500px;
+  
+    flex-direction: column;
+}
+.d1{
+    width: 400px;
+    height: 450px;
+}
+.photo1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+top: -20px;
+ left: 10px;
+}
+#photo2{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 10px;
+}
+#ko{
+    font-size: 20px;
+}
+#photo3{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: -0px;
+top: -10px;
+left: 40px;
+}
+.teksti{
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+
+}
+.teksti1{
+    font-size: 17px;
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+#teksti3{
+    font-size: 17px;
+    position: relative;
+    left: -20px;
+    top: -30px;
+}
+.cmimi{
+    color:#20030A;
+    font-size: 20px;
+    margin-top: -35px;
+position: relative;
+left: 20px;
+}
+
+#history{
+  width: 100%;
+  height: 700px;
+position: relative;
+top: 100px;
+}
+.div1{
+    width: 100%;
+    display: block;
+}
+:nth-child(2).div1{
+    display: none;
+}
+#side{
+    display: none;
+}
+#about{
+    font-size: 40px;
+    text-align: center;
+ position: relative;
+ left: -50px;
+ 
+}
+#p1{
+    text-align: center;
+    font-size: 20px;
+    width: 600PX;
+}
+
+#history1{
+    height: 500px;
+ flex-direction: column;
+
+ }
+ .div2{
+    width: 100%;
+ height: 600px;
+ }
+ #about1{
+     font-size: 35px;
+     text-align: center;
+     position: relative;
+left: -30px;
+   
+ }
+ #p2{
+     font-size: 20px;
+     text-align: center;
+ position: relative;
+ left: 30px;
+ }
+ 
+ .day{
+  text-align: center;
+  position: relative;
+  left: -45px;
+ }
+ iframe{
+     width: 100%;
+     height: 550px;
+ }
+ #numbers{
+     display: block;
+     position: relative;
+     text-align: center;
+     top: -200px;
+     left: -25px;
+ }
+ #nr1{
+     position: relative;
+  margin-left: -200px;
+     display: block;
+ }
+ 
+
+
+
+
+}

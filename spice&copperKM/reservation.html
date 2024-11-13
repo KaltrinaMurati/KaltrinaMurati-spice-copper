@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reserve.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div id="kryesori"><div id="first">
+    <div id="Nav">
+        <div id="logo">
+         <a href="index.html"><img src="R__1_-removebg-preview.png" alt="" id="logo1"></a>  
+        </div>            <div id="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+        <div id="navi">
+            <ul type="none">
+                <li><a href="index.html" class="menu">Home</a></li>
+                <li><a href="menu.html"  class="menu">Menu</a></li>
+                <li><a href="reservation.html"  class="menu">Reservation</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="buton" onclick="kontakti()">Contact us</a>
+        </div>
+       
+
+
+    </div>
+
+
+<h1 id="table-book">TABLE RESERVATION</h1>
+<p id="para-graf">Reserve your table with ease at our restaurant and ensure a memorable dining experience without the wait. Simply book online to secure your preferred date and time, and let us take care of the rest.</p>
+
+
+
+
+
+<div id="in-put">
+  <div class="reservation-form">
+      <form>
+          <div class="form-row">
+              <div class="form-group">
+                  <label for="input1">Name:</label>
+                  <input type="text" id="input1" name="name" class="form-control">
+              </div>
+
+              <div class="form-group">
+                  <label for="input2">Email:</label>
+                  <input type="email" id="input2" name="email" class="form-control">
+              </div>
+          </div>
+
+          <div class="form-row">
+              <div class="form-group">
+                  <label for="input3">Date:</label>
+                  <input type="date" id="input3" name="date" class="form-control">
+              </div>
+
+              <div class="form-group">
+                  <label for="input4">Time:</label>
+                  <input type="time" id="input4" name="time" class="form-control">
+              </div>
+          </div>
+
+          <div class="form-row">
+              <div class="form-group">
+                  <label for="input5">Phone Number:</label>
+                  <input type="tel" id="input5" name="phone" class="form-control">
+              </div>
+
+              <div class="form-group">
+                  <label for="input6">Guests:</label>
+                  <input type="number" id="input6" name="guests" min="1" class="form-control">
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label for="area">Additional Notes:</label>
+              <textarea id="area" name="notes" rows="4" placeholder="Any special requests?" class="form-control"></textarea>
+          </div>
+      </form>
+  </div>
+ <button class="btn btn-dark"  id="btn3" onclick="kliko()">Reserve Table</button>
+
+
+
+
+
+
+
+</div>
+
+<div id="history1">
+  <div class="div2"><h1 id="about1">Experience Culinary Elegance at Our Location</h1>
+  <p id="p2">Join us at Copper&Spice conveniently located in the heart of the charming Verano District, where exquisite flavors await you. </p>  <p class="day">Monday-Friday<span class="time">10:00-21:00</span></p>
+<p class="day">Saturday-Sunday<span class="time">9:00-23:00</span></p>
+<p id="numbers">(555) 123-4567 <span id="nr1"> (555) 987-6543</span></p>
+
+
+</div>
+  <div class="div2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47055.70243873936!2d21.1288064!3d42.51320319999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1730839791783!5m2!1sen!2s" width="700" height="700" style="border:0;margin-top: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+
+</div>
+
+
+
+</div>
+
+    
+    <script>
+
+
+function kontakti(){
+  const contact= document.getElementById('history1')
+  contact.scrollIntoView({behavior: 'smooth'});
+}
+
+function kliko() {
+    let name=document.getElementById('input1').value;
+    
+  let email=document.getElementById('input2').value;
+    let date=document.getElementById('input3').value;
+    let time=document.getElementById('input4').value;
+    let phone=document.getElementById('input5').value;
+    let guests=document.getElementById('input6').value;
+    let notes=document.getElementById('area').value;
+
+    if (!name || !email || !date || !time || !phone || !guests) {
+        alert('Please fill the instructions');
+       return
+    }
+
+
+    document.getElementById('input1').value = "";
+              document.getElementById('input2').value = "";
+    document.getElementById('input3').value = "";
+           document.getElementById('input4').value = "";
+    document.getElementById('input5').value = "";
+         document.getElementById('input6').value = "";
+    document.getElementById('area').value = "";
+
+    alert('Reservation submitted successfully!');
+}
+
+function toggleMenu() {
+    const navMenu = document.getElementById('navi');
+    navMenu.style.display = navMenu.style.display==='block'?'none':'block';
+}
+
+
+
+
+    </script>
+</body>
+</html>
